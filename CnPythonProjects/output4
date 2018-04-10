@@ -1,0 +1,158 @@
+
+
+	STUDENT DATABASE
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 1
+Enter student's name : Swapneel
+Enter gr_no : 131761
+Enter roll_no : 29
+Enter cumulative cpi : 7.3
+Entry successfully added!
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 1
+Enter student's name : Zahann
+Enter gr_no : 131762
+Enter roll_no : 16
+Enter cumulative cpi : 4.5
+Entry successfully added!
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 1
+Enter student's name : Aishwarya
+Enter gr_no : 131763
+Enter roll_no : 31
+Enter cumulative cpi : 7.4
+Entry successfully added!
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 1
+Enter student's name : Ashay
+Enter gr_no : 131764
+Enter roll_no : 17
+Enter cumulative cpi : 8.5
+Entry successfully added!
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 4
+1  Swapneel    131761   29  7.3
+
+2    Zahann    131762   16  4.5
+
+3 Aishwarya    131763   31  7.4
+
+4     Ashay    131764   17  8.5
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 2
+Remove entry at position? (1 for initial element) : 3
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 4
+1  Swapneel    131761   29  7.3
+
+2    Zahann    131762   16  4.5
+
+3     Ashay    131764   17  8.5
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 2
+Remove entry at position? (1 for initial element) : 1
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 4
+1    Zahann    131762   16  4.5
+
+2     Ashay    131764   17  8.5
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 2
+Remove entry at position? (1 for initial element) : 1
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : 1
+Enter student's name : Swapneel
+Enter gr_no : 131761
+Enter roll_no : 21
+Enter cumulative cpi : 9 
+Entry successfully added!
+
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : D
+Invalid entry, please try again.
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : a
+Invalid entry, please try again.
+1. Add an entry
+2. Remove an entry
+3. Locate an entry
+4. Display entire database
+X. Exit
+
+Enter your choice : x

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class matrix
+
+{
+	void matrix()
+	{
+		int a[][]=new int[10][10];
+		
+		public static void input()
+		{
+		};
+	}
+}
+
+public class lol
+{
+	public static void main(String [] args)
+	{}
+}
+

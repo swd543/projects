@@ -1,0 +1,6 @@
+#include "libs/bugabox.cpp"
+
+int main()
+{
+	cout<<getch();
+}
